@@ -1,0 +1,61 @@
+/* asset.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Three columns */
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.container h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.container p {
+    line-height: 1.6;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container li {
+    margin-bottom: 20px;
+}
+
+.container a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.container a:hover {
+    color: #0056b3;
+}
+
+/* Styling for Attractive Look */
+.container li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.container li:hover {
+    background-color: #0056b3;
+}
